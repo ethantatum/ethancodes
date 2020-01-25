@@ -14,17 +14,18 @@ class Portfolio extends React.Component {
     return (
       <div>
         <Container>
-          {this.state.projects(project => {
+          {this.state.projects.map(project => (
             <ImageCard
               id={project.id}
+              key={project.id}
               image={project.image}
               alt={project.alt}
               title={project.title}
               tech={project.tech}
               repo={project.repo}
               url={project.url}
-            />;
-          })}
+            />
+          ))}
         </Container>
       </div>
     );
