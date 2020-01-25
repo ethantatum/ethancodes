@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "image": "./images/hemantv.png",
+        "alt": "tv icon",
+        "title": "Cartoon Gif Search",
+        "tech": "jQuery, Ajax",
+        "gh-repo": "https://github.com/ethantatum/GifTastic",
+        "url": "https://ethantatum.github.io/GifTastic/"
+    },
+    {
+        "id": 2,
+        "image": "./images/alina-grubnyak-tEVGmMaPFXk-unsplash.jpg",
+        "alt": "brain icon",
+        "title": "Hellish History Trivia",
+        "tech": "jQuery, timer events",
+        "gh-repo": "https://github.com/ethantatum/TriviaGame",
+        "url": "https://ethantatum.github.io/TriviaGame/"
+    },
+    {
+        "id": 3,
+        "image": "./images/rock-n-roll-monkey-FTfjMijq-Ws-unsplash.jpg",
+        "alt": "robot icon",
+        "title": "(Not 'Siri') Bot",
+        "tech": "Node.js",
+        "gh-repo": "https://github.com/ethantatum/liri-node-app",
+        "url": ""
+    },
+    {
+        "id": 4,
+        "image": "./images/bank-notes-cash-dollars-163056.jpg",
+        "alt": "bamazon icon",
+        "title": "Bamazon' Marketplace",
+        "tech": "Node.js",
+        "gh-repo": "https://github.com/ethantatum/Command-Line-MySQL",
+        "url": ""
+    },
+    {
+        "id": 5,
+        "image": "./images/pratik-gupta-CNOo9ZMBqRM-unsplash.jpg",
+        "alt": "pointer icon",
+        "title": "CodeDater",
+        "tech": "Express.js",
+        "gh-repo": "https://github.com/ethantatum/CodeDater",
+        "url": "https://floating-scrubland-21412.herokuapp.com/"
+    },
+    {
+        "id": 6,
+        "image": "./images/apu-click.jpg",
+        "alt": "apu",
+        "title": "Klik-E-Mart",
+        "tech": "React.js",
+        "gh-repo": "https://github.com/ethantatum/Klik-E-Mart",
+        "url": "https://ethantatum.github.io/Klik-E-Mart/"
+    },
+    {
+        "id": 7,
+        "image": "./images/sk-uVPV_nV17Tw-unsplash.jpg",
+        "alt": "burger",
+        "title": "Express Burger",
+        "tech": "Handlebars.js",
+        "gh-repo": "https://github.com/ethantatum/express-burger",
+        "url": "https://salty-dusk-57374.herokuapp.com/"
+    },
+    {
+        "id": 8,
+        "image": "./images/osn.jpg",
+        "alt": "computer game",
+        "title": "Sporty McScraper",
+        "tech": "MongoDB, Mongoose",
+        "gh-repo": "https://github.com/ethantatum/Sporty-McScraper",
+        "url": "https://fast-oasis-93811.herokuapp.com/"
+    }
+]

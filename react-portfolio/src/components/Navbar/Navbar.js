@@ -19,7 +19,7 @@ const Navbar = () => {
             height="30"
             className="d-inline-block align-top"
             alt="favicon"
-          />
+          />{" "}
           Ethan Tatum
         </Link>
         <button
@@ -32,8 +32,9 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbar-menu">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item ml-auto">
-              <Link
-                to="https://www.linkedin.com/in/ethan-tatum-19372725/"
+              <a
+                href="https://www.linkedin.com/in/ethan-tatum-19372725/"
+                rel="noopener noreferrer"
                 target="_blank"
                 className="nav-link"
               >
@@ -45,11 +46,12 @@ const Navbar = () => {
                   className="d-inline-block align-top"
                   alt="linkedin logo"
                 />
-              </Link>
+              </a>
             </li>
             <li className="nav-item ml-auto">
-              <Link
-                to="https://github.com/ethantatum"
+              <a
+                href="https://github.com/ethantatum"
+                rel="noopener noreferrer"
                 target="_blank"
                 className="nav-link"
               >
@@ -61,11 +63,12 @@ const Navbar = () => {
                   className="d-inline-block align-top"
                   alt="github logo"
                 />
-              </Link>
+              </a>
             </li>
             <li className="nav-item ml-auto">
-              <Link
-                to="https://drive.google.com/file/d/1mmBOWP4udG14G3IdhyT9AbzpTFBnb05I/view?usp=sharing"
+              <a
+                href="https://drive.google.com/file/d/1mmBOWP4udG14G3IdhyT9AbzpTFBnb05I/view?usp=sharing"
+                rel="noopener noreferrer"
                 target="_blank"
                 className="nav-link"
               >
@@ -77,10 +80,15 @@ const Navbar = () => {
                   className="d-inline-block align-top"
                   alt="pdf logo"
                 />
-              </Link>
+              </a>
             </li>
             <li className="nav-item ml-auto">
-              <Link href="#" className="nav-link">
+              <a
+                href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=ethantatum81@gmail.com"
+                rel="noopener noreferrer"
+                target="_blank"
+                className="nav-link"
+              >
                 ethantatum81@gmail.com
                 <img
                   src={gmail}
@@ -89,11 +97,11 @@ const Navbar = () => {
                   className="d-inline-block align-top"
                   alt="gmail logo"
                 />
-              </Link>
+              </a>
             </li>
             <li className="nav-item ml-auto">
-              <Link to="/" className="nav-link">
-                (480) 619-1521
+              <a href="tel:+1-480-619-1521" rel="nofollow" className="nav-link">
+                480-619-1521
                 <img
                   src={cell}
                   width="24"
@@ -101,7 +109,7 @@ const Navbar = () => {
                   className="d-inline-block align-top"
                   alt="cell phone logo"
                 />
-              </Link>
+              </a>
             </li>
           </ul>
         </div>
